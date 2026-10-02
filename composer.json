@@ -5,7 +5,7 @@
   "version": "1.0.1",
   "license": "MIT",
   "require": {
-    "shopware/core": "~6.7.0"
+    "shopware/core": "~6.7.15"
   },
   "extra": {
     "shopware-plugin-class": "AfShowAdminVersion\\AfShowAdminVersion",
