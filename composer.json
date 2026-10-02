@@ -1,0 +1,27 @@
+{
+  "name": "af-show-admin-version/af-show-admin-version",
+  "description": "af-show-admin-version/af-show-admin-version",
+  "type": "shopware-platform-plugin",
+  "version": "1.0.1",
+  "license": "MIT",
+  "require": {
+    "shopware/core": "~6.7.0"
+  },
+  "extra": {
+    "shopware-plugin-class": "AfShowAdminVersion\\AfShowAdminVersion",
+    "label": {
+      "de-DE": "Shopware Version in Administration",
+      "en-GB": "Shopware version in administration"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "AfShowAdminVersion\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "AfShowAdminVersion\\Tests\\": "tests/"
+    }
+  }
+}
